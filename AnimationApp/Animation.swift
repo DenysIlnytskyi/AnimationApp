@@ -24,7 +24,7 @@ struct Animation {
         """
     }
     
-    static func getRundomAnimation() -> Animation {
+    static func getRandomAnimation() -> Animation {
         Animation(
             name: DataManager.shared.animations.randomElement()?.rawValue ?? "slideLeft",
             curve: DataManager.shared.animations.randomElement()?.rawValue ?? "easeIn",

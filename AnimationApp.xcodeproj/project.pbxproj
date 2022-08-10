@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		258BB68D0D8A4FB2827FEE74 /* Pods_AnimationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AFC0C62B6305ED078F88CA /* Pods_AnimationApp.framework */; };
+		864C568D28A431240084E773 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C568C28A431240084E773 /* Animation.swift */; };
 		86A6D4A228A42B1100AB7C2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A6D4A128A42B1100AB7C2E /* AppDelegate.swift */; };
 		86A6D4A428A42B1100AB7C2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A6D4A328A42B1100AB7C2E /* SceneDelegate.swift */; };
 		86A6D4A628A42B1100AB7C2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A6D4A528A42B1100AB7C2E /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		5716C1E0EFC798C3D7A89585 /* Pods-AnimationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationApp.debug.xcconfig"; path = "Target Support Files/Pods-AnimationApp/Pods-AnimationApp.debug.xcconfig"; sourceTree = "<group>"; };
+		864C568C28A431240084E773 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		86A6D49E28A42B1100AB7C2E /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A6D4A128A42B1100AB7C2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86A6D4A328A42B1100AB7C2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				86A6D4A328A42B1100AB7C2E /* SceneDelegate.swift */,
 				86A6D4A528A42B1100AB7C2E /* ViewController.swift */,
 				86A6D4A728A42B1100AB7C2E /* Main.storyboard */,
+				864C568C28A431240084E773 /* Animation.swift */,
 				86A6D4B528A42E0E00AB7C2E /* DataManager.swift */,
 				86A6D4AA28A42B1100AB7C2E /* Assets.xcassets */,
 				86A6D4AC28A42B1100AB7C2E /* LaunchScreen.storyboard */,
@@ -212,6 +215,7 @@
 				86A6D4A628A42B1100AB7C2E /* ViewController.swift in Sources */,
 				86A6D4B628A42E0E00AB7C2E /* DataManager.swift in Sources */,
 				86A6D4A228A42B1100AB7C2E /* AppDelegate.swift in Sources */,
+				864C568D28A431240084E773 /* Animation.swift in Sources */,
 				86A6D4A428A42B1100AB7C2E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

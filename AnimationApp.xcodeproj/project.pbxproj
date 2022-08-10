@@ -63,6 +63,57 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		864C568E28A438510084E773 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				86A6D4A528A42B1100AB7C2E /* AnimationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		864C568F28A438650084E773 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				86A6D4A728A42B1100AB7C2E /* Main.storyboard */,
+				86A6D4AC28A42B1100AB7C2E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		864C569028A438F40084E773 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				86A6D4A128A42B1100AB7C2E /* AppDelegate.swift */,
+				86A6D4A328A42B1100AB7C2E /* SceneDelegate.swift */,
+				86A6D4AF28A42B1100AB7C2E /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		864C569128A4390A0084E773 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				864C568C28A431240084E773 /* Animation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		864C569228A439180084E773 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				86A6D4B528A42E0E00AB7C2E /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		864C569328A439500084E773 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86A6D4AA28A42B1100AB7C2E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		86A6D49528A42B1100AB7C2E = {
 			isa = PBXGroup;
 			children = (
@@ -84,15 +135,12 @@
 		86A6D4A028A42B1100AB7C2E /* AnimationApp */ = {
 			isa = PBXGroup;
 			children = (
-				86A6D4A128A42B1100AB7C2E /* AppDelegate.swift */,
-				86A6D4A328A42B1100AB7C2E /* SceneDelegate.swift */,
-				86A6D4A528A42B1100AB7C2E /* AnimationViewController.swift */,
-				86A6D4A728A42B1100AB7C2E /* Main.storyboard */,
-				864C568C28A431240084E773 /* Animation.swift */,
-				86A6D4B528A42E0E00AB7C2E /* DataManager.swift */,
-				86A6D4AA28A42B1100AB7C2E /* Assets.xcassets */,
-				86A6D4AC28A42B1100AB7C2E /* LaunchScreen.storyboard */,
-				86A6D4AF28A42B1100AB7C2E /* Info.plist */,
+				864C569028A438F40084E773 /* App */,
+				864C568E28A438510084E773 /* ViewControllers */,
+				864C568F28A438650084E773 /* Storyboards */,
+				864C569128A4390A0084E773 /* Models */,
+				864C569228A439180084E773 /* Services */,
+				864C569328A439500084E773 /* Resources */,
 			);
 			path = AnimationApp;
 			sourceTree = "<group>";
@@ -368,7 +416,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RB4GHHSS4P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimationApp/Info.plist;
+				INFOPLIST_FILE = AnimationApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -398,7 +446,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RB4GHHSS4P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimationApp/Info.plist;
+				INFOPLIST_FILE = AnimationApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
